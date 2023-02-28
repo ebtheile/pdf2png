@@ -1,5 +1,0 @@
-TODO:
-- Give input and output directory as command line arguments
-- Add optional flag to control verbosity
-- Add optional pattern flag to control which pdfs should be converted
-- Add optional force flag to toggle overwriting if the pdf has been converted before
