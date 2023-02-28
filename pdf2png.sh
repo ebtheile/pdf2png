@@ -32,6 +32,7 @@ while getopts ':i:o:p:fvh' opt; do
       
         Valid options:
           
+          -f : Force conversion if output files already exist
           -h : Display this help
           -i directory : Input directory
           -o directory : Output directory
