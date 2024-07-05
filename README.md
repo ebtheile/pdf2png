@@ -17,7 +17,7 @@ Usage: ./pdf2png [OPTIONS]
           -h : Display this help
           -i directory : Input directory
           -o directory : Output directory
-          -p pattern : Pattern used to filter pdfs pre-conversion
+          -p pattern : Regular expression used to filter pdfs pre-conversion
           -v : Toggle verbose output
 ```
 
