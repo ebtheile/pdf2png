@@ -2,7 +2,7 @@
 
 currentDir=`pwd`
 inputDir=$currentDir
-outputDir='pngs'
+outputDir="$inputDir/pngs"
 pattern=''
 verbosity=0
 force=0
@@ -12,6 +12,7 @@ while getopts ':i:o:p:fvh' opt; do
   case $opt in
     i)
       inputDir="$OPTARG"
+      outputDir="$inputDir/pngs"
       ;;
     o)
       outputDir="$OPTARG"
