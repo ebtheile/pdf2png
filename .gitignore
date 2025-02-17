@@ -1,0 +1,7 @@
+# Testing directories
+pngs/
+pdfs/
+*test*/
+
+# Compiled Markdown
+*.html
